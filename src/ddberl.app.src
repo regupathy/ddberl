@@ -1,0 +1,12 @@
+{application, ddberl,
+ [
+  {description, "DynamoDB"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+%%   {mod, {tr_ddb,[]}},
+  {env, []}
+ ]}.
